@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  .logo {
+    img {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+  .nav {
+    display: none;
+  }
+}
