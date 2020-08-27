@@ -16,4 +16,44 @@ html {
   .header .nav {
     display: none; }
 
+.hero {
+  background: url("https://images.unsplash.com/photo-1479152471347-3f2e62a2b2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  width: 100vw;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+  .hero__text {
+    position: absolute;
+    top: 2.3rem;
+    left: 2rem;
+    padding: 1.5rem; }
+    .hero__text-title {
+      font-size: 1.8rem;
+      color: #38a001; }
+      .hero__text-title span {
+        color: #2f2f2f; }
+    .hero__text-subtitle {
+      margin: 5rem 0 2rem;
+      font-size: 1rem;
+      color: #2f2f2f; }
+  .hero__btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #38a001;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    font-weight: 500; }
+
+.about {
+  background-color: #f3f3f3; }
+  .about__info {
+    padding: 1rem 0 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
 /*# sourceMappingURL=main.css.map */
