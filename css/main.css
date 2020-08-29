@@ -55,5 +55,43 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .about__info-item {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 1.5rem 0; }
+    .about__info-title {
+      margin-top: 1rem;
+      color: #2f2f2f; }
+    .about__info-description {
+      color: #333333; }
+
+.company {
+  display: flex;
+  flex-direction: column; }
+  .company__img img {
+    width: 100%; }
+  .company__text {
+    margin-top: 2rem;
+    padding: 1.5rem; }
+    .company__text-title {
+      color: #474747;
+      font-size: 1.8rem; }
+      .company__text-title span {
+        color: #2f2f2f;
+        font-weight: 500; }
+    .company__text-description {
+      margin: 1rem 0 1.5rem;
+      color: #474747; }
+    .company__text-btn {
+      text-decoration: none;
+      color: #38a001;
+      font-weight: 500;
+      display: flex;
+      align-items: center; }
+      .company__text-btn::after {
+        content: '\2192';
+        padding-left: 1rem;
+        font-size: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */

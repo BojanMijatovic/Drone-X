@@ -1,0 +1,42 @@
+.company {
+  display: flex;
+  flex-direction: column;
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    margin-top: 2rem;
+    padding: 1.5rem;
+
+    &-title {
+      color: $main-color;
+      font-size: 1.8rem;
+      span {
+        color: $main-dark-color;
+        font-weight: 500;
+      }
+    }
+
+    &-description {
+      margin: 1rem 0 1.5rem;
+      color: $main-color;
+    }
+
+    &-btn {
+      text-decoration: none;
+      color: $second-color;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+
+      &::after {
+        content: '\2192';
+        padding-left: 1rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
