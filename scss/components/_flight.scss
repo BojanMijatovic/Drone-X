@@ -1,0 +1,58 @@
+.flight {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  &__text {
+    &-img {
+      height: 10vh;
+    }
+
+    &-title {
+      color: $main-color;
+      font-size: 1.5rem;
+    }
+
+    &-subtitle {
+      padding: 1rem;
+    }
+
+    text-align: center;
+  }
+
+  &__list {
+    background-color: $background;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+
+    .flight__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        margin-top: 2.5rem;
+        font-size: 1.3rem;
+        color: $main-color;
+      }
+
+      &-subtitle {
+        font-size: 1rem;
+        color: $main-dark-color;
+        margin-bottom: 0.5rem;
+      }
+
+      &-img {
+        width: 80vw;
+        height: 40vh;
+      }
+
+      &-price {
+        color: $second-color;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}
