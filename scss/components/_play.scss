@@ -1,7 +1,44 @@
 .play {
-  background: linear-gradient(rgba(79, 255, 76, 0.3), rgba(69, 212, 66, 0.514)),
+  background: linear-gradient(rgba(22, 90, 21, 0.8), rgba(69, 212, 66, 0.514)),
     url('https://cdn.pixabay.com/photo/2016/07/07/22/07/nice-1503257_960_720.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  &__text {
+    margin: 2.5rem;
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  &__mail {
+    margin: 2.5rem;
+    &-title {
+      color: #fff;
+      font-size: 1.2rem;
+      padding-bottom: 0.5rem;
+    }
+
+    form {
+      input {
+        border: none;
+        border-radius: 4px;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+      }
+      button {
+        background-color: #fff;
+        color: $second-color;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      padding-bottom: 2rem;
+    }
+  }
 }
