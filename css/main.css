@@ -181,12 +181,12 @@ html {
   background-repeat: no-repeat;
   background-size: cover; }
   .play__text {
-    margin: 2.5rem;
+    margin: 0 2.5rem;
     padding-top: 2rem;
     color: #fff;
     font-size: 1.2rem; }
   .play__mail {
-    margin: 2.5rem; }
+    margin: 0 2.5rem; }
     .play__mail-title {
       color: #fff;
       font-size: 1.2rem;
@@ -208,5 +208,36 @@ html {
         font-size: 1.2rem;
         font-weight: 500;
         cursor: pointer; }
+
+.footer {
+  background-color: #f3f3f3; }
+  .footer__title {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: #38a001; }
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 2rem; }
+    .footer__list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem auto;
+      width: 60%; }
+      .footer__list-item img {
+        width: 5vw;
+        margin: 0 1rem; }
+        .footer__list-item img:active, .footer__list-item img:hover {
+          cursor: pointer; }
+    .footer__list-info {
+      display: flex;
+      align-items: flex-start; }
+  .footer p {
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
